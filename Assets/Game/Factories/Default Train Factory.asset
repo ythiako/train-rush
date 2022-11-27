@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04201ca8b2b44f129a68d94df31be39e, type: 3}
+  m_Name: Default Train Factory
+  m_EditorClassIdentifier: 
+  trainPrefabs:
+    m_keys: 0000000001000000
+    m_values:
+    - locomotive: {fileID: 3075147622264675474, guid: 4442364fc1720744a82f0a041244f076, type: 3}
+      wagon: {fileID: 8669425369274831693, guid: e7c2c892e7a3614438a1044c9696e10a, type: 3}
+    - locomotive: {fileID: 0}
+      wagon: {fileID: 0}
+  defaultTrainData:
+    m_keys: 0000000001000000
+    m_values:
+    - m_keys: 000000000100000002000000
+      m_values:
+      - locomotive: {fileID: 140088, guid: ce74f046842cb974db746636ad13bd62, type: 3}
+        passengerWagon: {fileID: 152902, guid: 92eecb3f60603a94aa50d0743325d452, type: 3}
+      - locomotive: {fileID: 197500, guid: b11507e343bdabb42ad7da0072f20c6c, type: 3}
+        passengerWagon: {fileID: 195512, guid: 4b00081152f18ef419d0ac7626f86462, type: 3}
+      - locomotive: {fileID: 118834, guid: 08db54fb9219c5a4194c6000948d7bcb, type: 3}
+        passengerWagon: {fileID: 130116, guid: 7d99ccecc72ba624bb85a93bb0fbf7e8, type: 3}
+    - m_keys: 000000000100000002000000
+      m_values:
+      - locomotive: {fileID: 177058, guid: 5e09756b57f2235418b02d37575c138d, type: 3}
+        passengerWagon: {fileID: 180616, guid: 816cc2b9f92ee9d418bdbdc8ad3139b8, type: 3}
+      - locomotive: {fileID: 136706, guid: b7acb79cf839d0f48a5ed147011bd8d1, type: 3}
+        passengerWagon: {fileID: 122528, guid: d0a81f3f0ef3e8e428c0ffdb28e4e3ae, type: 3}
+      - locomotive: {fileID: 154624, guid: e1245960ebfcacb44b2e8627a87d7bac, type: 3}
+        passengerWagon: {fileID: 104962, guid: 8d803bb5cf7a2fa469a36400b69c1964, type: 3}
